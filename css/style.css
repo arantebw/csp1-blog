@@ -32,7 +32,7 @@ p {
 .bg-darkblue {
 	background-color: #474e5d;
 	color: #f5f6f7;
- }
+}
 
 .main-content {
 	line-height: 1.58;
@@ -47,9 +47,7 @@ p {
 .previous-content {
 	line-height: 1.58;
 	font-weight: 400;
-	/*font-size: 21px;*/
 	font-family: Georgia;
-	/*width: 60%;*/
 	margin: 0 auto;
 	padding-top: 20px;
 }
@@ -59,8 +57,7 @@ p a.btn.btn-warning {
 }
 
 #disqus_thread {
-/*	width: 60%;*/
-	margin: 50px;
+  margin: 50px;
 }
 
 /* Previous posts */
@@ -109,8 +106,8 @@ li.list-group-item {
 
 .list-group-item:last-child {
 	margin-bottom: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .list-group-item {
@@ -139,12 +136,16 @@ a:hover {
 	letter-spacing: 0;
 	font-size: 28px;
 	color: #f90;
+	text-transform: lowercase;
 }
 
 a:hover#navbar-brand-logo {
 	color: #fff;
 }
 
+.navbar-nav li a {
+  text-transform: uppercase;
+}
 .navbar-nav li a:hover {
 	color: #ff9900 !important;  /* Gold */
 }
