@@ -1,0 +1,158 @@
+/* General rules */
+
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+}
+
+p {
+	font-size: 16px;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+	opacity: 0.8;
+}
+
+.navbar-nav  li a:hover {
+	color: #1abc9c !important;
+}
+
+.bg-blackgray {
+	background-color: #2f2f2f;
+	color: #f5f6f7;
+}
+
+.bg-darkblue {
+	background-color: #474e5d;
+	color: #f5f6f7;
+ }
+
+.main-content {
+	line-height: 1.58;
+	font-weight: 400;
+	font-size: 21px;
+	font-family: Georgia;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.previous-content {
+	line-height: 1.58;
+	font-weight: 400;
+	/*font-size: 21px;*/
+	font-family: Georgia;
+	/*width: 60%;*/
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+p a.btn.btn-warning {
+	margin-top: 20px;
+}
+
+#disqus_thread {
+/*	width: 60%;*/
+	margin: 50px;
+}
+
+/* Previous posts */
+
+/* Archives, categories, etc. */
+
+div.col-lg-4 h3 {
+	color: #f90;  /* Gold */
+}
+
+/* Bootstrap overrides */
+
+/* Banner section */
+div.input-group {
+	margin: 0 20%;
+}
+
+div#banner-section {
+	background: url(../img/carousel1.jpg) top left/cover no-repeat;
+	color: #fff;
+	margin-top: 80px;
+}
+
+#banner-section h1 {
+	font-family: "Lobster", cursive;
+	text-shadow: 3px 3px #f90;
+}
+
+#banner-section p {
+	color: #000;
+}
+
+.container-fluid {
+	padding: 70px 0;
+}
+
+li.list-group-item {
+	background-color: #474e5d;
+}
+
+.list-group-item:first-child {
+	margin-bottom: 0;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+	margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item {
+	border: none;
+	border-top: 1px dotted grey;
+}
+
+li.list-group-item:last-child {
+	border-bottom: 1px dotted grey;
+}
+
+ul.list-group li.list-group-item a {
+	color: #fff;
+}
+
+a {
+	color: #ff9900;  /* Gold */
+}
+
+a:hover {
+	color: #ff9900;  /* Gold */
+}
+
+#navbar-brand-logo {
+	font-family: "Lobster", serif;
+	letter-spacing: 0;
+	font-size: 28px;
+	color: #f90;
+}
+
+a:hover#navbar-brand-logo {
+	color: #fff;
+}
+
+.navbar-nav li a:hover {
+	color: #ff9900 !important;  /* Gold */
+}
+
+.dark-gold {
+	color: #cc7a00;  /* Dark gold */
+}
+
+div.container.well.bg-darkblue {
+	padding: 50px 50px 30px 50px;
+}
